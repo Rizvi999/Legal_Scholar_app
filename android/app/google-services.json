@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "735025156467",
+    "project_id": "legal-scholar-app",
+    "storage_bucket": "legal-scholar-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735025156467:android:6d9ea483d5735287c27506",
+        "android_client_info": {
+          "package_name": "com.legal_scholar_app.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFCqHQEKI5fp3DlgOn0uegjNZTP5K6PYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
