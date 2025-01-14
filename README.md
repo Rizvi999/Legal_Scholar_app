@@ -20,7 +20,7 @@ Step 1: Clone the Repository
 Clone this repository to your local machine:
 
 
-Copy code
+paste this in terminal
 git clone https://github.com/Rizvi999/Legal_Scholar_app.git
 Navigate into the project directory:
 
@@ -85,20 +85,27 @@ For Firebase integration, follow the steps below:
 Go to the Firebase Console.
 Create a new Firebase project or select an existing one.
 Add an Android/iOS app to the Firebase project, depending on your platform.
+
 2. Add Firebase SDK to Your App:
 For Android, download the google-services.json file and place it in the android/app/ directory of your Flutter project.
 For iOS, download the GoogleService-Info.plist file and add it to the ios/Runner/ directory.
+
 3. Enable Required Firebase Services:
 Enable Firebase Authentication, Realtime Database, or Firestore (depending on what your app uses) in the Firebase Console.
+
 4. Generate an API Key for Google Generative AI:
+
 Visit the Google Cloud Console.
 Create a new project or use an existing one.
 Enable the "Google Generative AI" API.
 Go to APIs & Services > Credentials and create an API key.
+
 Add the API key to the .env file in your project (or environment configuration) using the flutter_dotenv package. Example:
+
 makefile
 Copy code
 GOOGLE_API_KEY=your_api_key_here
+
 Step 4: Run the App
 Once the dependencies are installed and your Firebase and API keys are set up:
 
