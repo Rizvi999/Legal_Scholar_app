@@ -40,49 +40,40 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBQYSvGaJxx8NNFVakjXzXLKoghVoZ4m28',
-    appId: '1:735025156467:web:308d685864592118c27506',
-    messagingSenderId: '735025156467',
-    projectId: 'legal-scholar-app',
-    authDomain: 'legal-scholar-app.firebaseapp.com',
-    storageBucket: 'legal-scholar-app.appspot.com',
-    measurementId: 'G-YJCCP3WW63',
-  );
+  
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAFCqHQEKI5fp3DlgOn0uegjNZTP5K6PYw',
-    appId: '1:735025156467:android:6d9ea483d5735287c27506',
-    messagingSenderId: '735025156467',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'legal-scholar-app',
     storageBucket: 'legal-scholar-app.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDVJifAbSLvEGdkf654bhcp2-Jm5p11084',
-    appId: '1:735025156467:ios:3ca5196861e478dac27506',
-    messagingSenderId: '735025156467',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'legal-scholar-app',
     storageBucket: 'legal-scholar-app.appspot.com',
-    iosBundleId: 'com.example.legalScholarApp',
+    iosBundleId: '',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDVJifAbSLvEGdkf654bhcp2-Jm5p11084',
-    appId: '1:735025156467:ios:3ca5196861e478dac27506',
-    messagingSenderId: '735025156467',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'legal-scholar-app',
     storageBucket: 'legal-scholar-app.appspot.com',
     iosBundleId: 'com.example.legalScholarApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBQYSvGaJxx8NNFVakjXzXLKoghVoZ4m28',
-    appId: '1:735025156467:web:9b8fbb0764c0d076c27506',
-    messagingSenderId: '735025156467',
+    apiKey: ',
+    messagingSenderId: '',
     projectId: 'legal-scholar-app',
     authDomain: 'legal-scholar-app.firebaseapp.com',
     storageBucket: 'legal-scholar-app.appspot.com',
-    measurementId: 'G-XFZ6ES1ZHQ',
+    measurementId: '',
   );
 }
